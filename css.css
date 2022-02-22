@@ -107,4 +107,9 @@ font-size: 1.8rem;
 .title-barra{
     font-size: .9rem;
 }
+
+.msj {
+    max-width: 90%;
+}
+
 }
