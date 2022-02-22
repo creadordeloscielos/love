@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+
+}
+.fondo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(fondo.gif) no-repeat;
+    background-size: cover;
+    opacity: .8;
+    z-index: -1;
+}
+
+.msj {
+    text-align: center;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 4px #00000067;
+    background-color: #ffeaf1;
+}
+
+.content{
+    padding: 30px 45px;
+}
+
+.title-barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px; 
+    background: #ff97ba;
+}
+
+.title-barra p{
+ 
+color: #ffffff;
+}
+
+.close{
+    padding: 8px 10px;
+    cursor: pointer;
+    background:#ce688ca6; 
+    transition:  background .6s ease-in-out;
+}
+
+.close:hover{
+    background:#ce688c; 
+}
+
+h1{
+    font-size: 3.5rem;
+    color: #ce688c; 
+
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+input[type="button"]{
+    border: none;
+    font-size: 2.5rem;
+    background: none;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 25px;
+    padding: 0px 25px;
+    color: #ce688c; 
+    background: #ff97ba54;
+    box-shadow: 1px 1px 20px 4px #00000018;
+}
+
+input[type="button"]:hover{
+    cursor: url("cursorpointer.png"), pointer;
+}
